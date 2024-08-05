@@ -24,7 +24,7 @@ class StoreArticle extends FormRequest
         return [
             "title" => ["required", "max:255"],
             "content" => ["required"],
-            "image_path" => ["image"],
+            // "image_path" => ["nullable", "image"],
 
         ];
     }
